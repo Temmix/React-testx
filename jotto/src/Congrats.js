@@ -8,9 +8,9 @@ import PropTypes from "prop-types";
  */
 const Congrats = props => {
   return (
-    <div data-test="component-congrats">
+    <div data-test="component-congrats" className="mt-5">
       {props.success && (
-        <span data-test="congrats-message">
+        <span className="alert alert-success" data-test="congrats-message">
           Congratulations! You guessed the word!
         </span>
       )}
